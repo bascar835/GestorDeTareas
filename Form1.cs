@@ -51,7 +51,8 @@ namespace GestorTareas_juabascar
                 Nombre = txtNombre.Text,
                 Descripcion = txtDescripcion.Text,
                 FechaVencimiento = dtpVencimiento.Value,
-                Completada = false
+                Completada = false,
+                PrioridadAlta = chkPrioridadAlta.Checked
             };
 
             tareas.Add(nuevaTarea);
@@ -95,6 +96,11 @@ namespace GestorTareas_juabascar
             {
                 lstTareas.Items.Add(tarea);
             }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -27,13 +27,15 @@ namespace GestorTareasWinForms
         /// </summary>
         public bool Completada { get; set; }
 
+        public bool PrioridadAlta { get; set; }
+
         /// <summary>
         /// Devuelve una representación de la tarea para mostrar en la lista.
         /// </summary>
         /// <returns>Cadena con nombre, estado y fecha de vencimiento.</returns>
         public override string ToString()
         {
-            return $"{Nombre} - {(Completada ? "[COMPLETADA]" : "Pendiente")} - Vence: {FechaVencimiento.ToShortDateString()}- Descripción: {Descripcion}";
+            return $"{Nombre} - {(Completada ? "[COMPLETADA]" : "Pendiente")} - {(PrioridadAlta ? "[PRIORIDAD ALTA]" : "")} - Vence: {FechaVencimiento.ToShortDateString()} - Descripción: {Descripcion}";
         }
     }
 }
