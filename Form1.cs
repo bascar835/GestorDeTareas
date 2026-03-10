@@ -51,7 +51,8 @@ namespace GestorTareas_juabascar
                 Nombre = txtNombre.Text,
                 Descripcion = txtDescripcion.Text,
                 FechaVencimiento = dtpVencimiento.Value,
-                Completada = false
+                Completada = false,
+                Categoria = cmbCategoria.SelectedItem?.ToString()
             };
 
             tareas.Add(nuevaTarea);
@@ -95,6 +96,16 @@ namespace GestorTareas_juabascar
             {
                 lstTareas.Items.Add(tarea);
             }
+        }
+
+        private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

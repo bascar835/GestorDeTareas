@@ -2,6 +2,8 @@
 bin/
 obj/
 
+.vs
+
 # Ignorar archivos de usuario y configuración local
 *.user
 *.suo
