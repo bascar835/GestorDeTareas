@@ -97,6 +97,9 @@ namespace GestorTareas_juabascar
             {
                 lstTareas.Items.Add(tarea);
             }
+
+            lblContadorTareas.Text = $"Tareas: {tareas.Count}";
+
         }
 
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)

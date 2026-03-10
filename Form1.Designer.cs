@@ -41,6 +41,7 @@
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.labelCategoria = new System.Windows.Forms.Label();
             this.chkPrioridadAlta = new System.Windows.Forms.CheckBox();
+            this.lblContadorTareas = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -166,11 +167,21 @@
             this.chkPrioridadAlta.Text = "Prioridad Alta";
             this.chkPrioridadAlta.UseVisualStyleBackColor = true;
             // 
+            // lblContadorTareas
+            // 
+            this.lblContadorTareas.AutoSize = true;
+            this.lblContadorTareas.Location = new System.Drawing.Point(40, 180);
+            this.lblContadorTareas.Name = "lblContadorTareas";
+            this.lblContadorTareas.Size = new System.Drawing.Size(52, 13);
+            this.lblContadorTareas.TabIndex = 12;
+            this.lblContadorTareas.Text = "Tareas: 0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblContadorTareas);
             this.Controls.Add(this.labelCategoria);
             this.Controls.Add(this.cmbCategoria);
             this.Controls.Add(this.chkPrioridadAlta);
@@ -207,6 +218,7 @@
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.Label labelCategoria;
         private System.Windows.Forms.CheckBox chkPrioridadAlta;
+        private System.Windows.Forms.Label lblContadorTareas;
     }
 }
 
