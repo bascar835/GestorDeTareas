@@ -52,7 +52,11 @@ namespace GestorTareas_juabascar
                 Descripcion = txtDescripcion.Text,
                 FechaVencimiento = dtpVencimiento.Value,
                 Completada = false,
+<<<<<<< HEAD
                 PrioridadAlta = chkPrioridadAlta.Checked
+=======
+                Categoria = cmbCategoria.SelectedItem?.ToString()
+>>>>>>> feature/cmbCategoria
             };
 
             tareas.Add(nuevaTarea);
@@ -98,7 +102,16 @@ namespace GestorTareas_juabascar
             }
         }
 
+<<<<<<< HEAD
         private void Form1_Load(object sender, EventArgs e)
+=======
+        private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+>>>>>>> feature/cmbCategoria
         {
 
         }

@@ -2,8 +2,10 @@
 bin/
 obj/
 
+<<<<<<< HEAD
 #Interna de Visul Studio
 .vs/
+
 
 # Ignorar archivos de usuario y configuración local
 *.user
