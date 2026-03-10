@@ -42,6 +42,7 @@
             this.labelCategoria = new System.Windows.Forms.Label();
             this.chkPrioridadAlta = new System.Windows.Forms.CheckBox();
             this.lblContadorTareas = new System.Windows.Forms.Label();
+            this.btnLimpiarCampos = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -50,6 +51,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(100, 20);
             this.txtNombre.TabIndex = 0;
+            this.txtNombre.Text = "d";
             this.txtNombre.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // labelNombre
@@ -176,11 +178,22 @@
             this.lblContadorTareas.TabIndex = 12;
             this.lblContadorTareas.Text = "Tareas: 0";
             // 
+            // btnLimpiarCampos
+            // 
+            this.btnLimpiarCampos.Location = new System.Drawing.Point(549, 301);
+            this.btnLimpiarCampos.Name = "btnLimpiarCampos";
+            this.btnLimpiarCampos.Size = new System.Drawing.Size(75, 23);
+            this.btnLimpiarCampos.TabIndex = 13;
+            this.btnLimpiarCampos.Text = "Limpiar campos";
+            this.btnLimpiarCampos.UseVisualStyleBackColor = true;
+            this.btnLimpiarCampos.Click += new System.EventHandler(this.btnLimpiarCampos_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnLimpiarCampos);
             this.Controls.Add(this.lblContadorTareas);
             this.Controls.Add(this.labelCategoria);
             this.Controls.Add(this.cmbCategoria);
@@ -219,6 +232,7 @@
         private System.Windows.Forms.Label labelCategoria;
         private System.Windows.Forms.CheckBox chkPrioridadAlta;
         private System.Windows.Forms.Label lblContadorTareas;
+        private System.Windows.Forms.Button btnLimpiarCampos;
     }
 }
 

@@ -102,6 +102,8 @@ namespace GestorTareas_juabascar
 
         }
 
+        
+
         private void cmbCategoria_SelectedIndexChanged(object sender, EventArgs e)
         {
 
@@ -115,6 +117,15 @@ namespace GestorTareas_juabascar
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnLimpiarCampos_Click_1(object sender, EventArgs e)
+        {
+            txtNombre.Clear();
+            txtDescripcion.Clear();
+            chkPrioridadAlta.Checked = false;
+            cmbCategoria.SelectedIndex = -1;
+            dtpVencimiento.Value = DateTime.Now;
         }
     }
 }
