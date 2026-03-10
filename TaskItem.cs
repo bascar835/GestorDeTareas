@@ -27,11 +27,9 @@ namespace GestorTareasWinForms
         /// </summary>
         public bool Completada { get; set; }
 
-<<<<<<< HEAD
-        public bool PrioridadAlta { get; set; }
-=======
         public string Categoria { get; set; }
->>>>>>> feature/cmbCategoria
+
+        public bool PrioridadAlta { get; set; }
 
         /// <summary>
         /// Devuelve una representación de la tarea para mostrar en la lista.
@@ -39,11 +37,7 @@ namespace GestorTareasWinForms
         /// <returns>Cadena con nombre, estado y fecha de vencimiento.</returns>
         public override string ToString()
         {
-<<<<<<< HEAD
-            return $"{Nombre} - {(Completada ? "[COMPLETADA]" : "Pendiente")} - {(PrioridadAlta ? "[PRIORIDAD ALTA]" : "")} - Vence: {FechaVencimiento.ToShortDateString()} - Descripción: {Descripcion}";
-=======
-            return $"{Nombre} - {Categoria} - {(Completada ? "[COMPLETADA]" : "Pendiente")} -  - Vence: {FechaVencimiento.ToShortDateString()} - Descripción: {Descripcion}";
->>>>>>> feature/cmbCategoria
+            return $"{Nombre} - {Categoria} {(Completada ? "[COMPLETADA]" : "Pendiente")} - {(PrioridadAlta ? "[PRIORIDAD ALTA]" : "")} - Vence: {FechaVencimiento.ToShortDateString()} - Descripción: {Descripcion}";
         }
     }
 }

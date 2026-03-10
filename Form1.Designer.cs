@@ -38,12 +38,9 @@
             this.btnAgregar = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnCompletar = new System.Windows.Forms.Button();
-<<<<<<< HEAD
-            this.chkPrioridadAlta = new System.Windows.Forms.CheckBox();
-=======
             this.cmbCategoria = new System.Windows.Forms.ComboBox();
             this.labelCategoria = new System.Windows.Forms.Label();
->>>>>>> feature/cmbCategoria
+            this.chkPrioridadAlta = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // txtNombre
@@ -136,17 +133,6 @@
             this.btnCompletar.UseVisualStyleBackColor = true;
             this.btnCompletar.Click += new System.EventHandler(this.btnCompletar_Click);
             // 
-<<<<<<< HEAD
-            // chkPrioridadAlta
-            // 
-            this.chkPrioridadAlta.AutoSize = true;
-            this.chkPrioridadAlta.Location = new System.Drawing.Point(179, 305);
-            this.chkPrioridadAlta.Name = "chkPrioridadAlta";
-            this.chkPrioridadAlta.Size = new System.Drawing.Size(88, 17);
-            this.chkPrioridadAlta.TabIndex = 10;
-            this.chkPrioridadAlta.Text = "Prioridad Alta";
-            this.chkPrioridadAlta.UseVisualStyleBackColor = true;
-=======
             // cmbCategoria
             // 
             this.cmbCategoria.FormattingEnabled = true;
@@ -169,19 +155,25 @@
             this.labelCategoria.TabIndex = 11;
             this.labelCategoria.Text = "Categoria";
             this.labelCategoria.Click += new System.EventHandler(this.label1_Click_1);
->>>>>>> feature/cmbCategoria
+            // 
+            // chkPrioridadAlta
+            // 
+            this.chkPrioridadAlta.AutoSize = true;
+            this.chkPrioridadAlta.Location = new System.Drawing.Point(179, 305);
+            this.chkPrioridadAlta.Name = "chkPrioridadAlta";
+            this.chkPrioridadAlta.Size = new System.Drawing.Size(88, 17);
+            this.chkPrioridadAlta.TabIndex = 10;
+            this.chkPrioridadAlta.Text = "Prioridad Alta";
+            this.chkPrioridadAlta.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-<<<<<<< HEAD
-            this.Controls.Add(this.chkPrioridadAlta);
-=======
             this.Controls.Add(this.labelCategoria);
             this.Controls.Add(this.cmbCategoria);
->>>>>>> feature/cmbCategoria
+            this.Controls.Add(this.chkPrioridadAlta);
             this.Controls.Add(this.btnCompletar);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnAgregar);
@@ -212,12 +204,9 @@
         private System.Windows.Forms.Button btnAgregar;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button btnCompletar;
-<<<<<<< HEAD
-        private System.Windows.Forms.CheckBox chkPrioridadAlta;
-=======
         private System.Windows.Forms.ComboBox cmbCategoria;
         private System.Windows.Forms.Label labelCategoria;
->>>>>>> feature/cmbCategoria
+        private System.Windows.Forms.CheckBox chkPrioridadAlta;
     }
 }
 
