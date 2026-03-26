@@ -18,5 +18,7 @@ namespace GestorTareas_juabascar
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        // Registro implementado por Desarrollador 2
+        Console.WriteLine("Funcionalidad de registro");
     }
 }
