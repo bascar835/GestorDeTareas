@@ -18,5 +18,7 @@ namespace GestorTareas_juabascar
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
+        //Login implementado por desarrollador 1
+        Console.WriteLine("Funcionalidad de login");
     }
 }
