@@ -25,5 +25,8 @@ namespace GestorTareas_juabascar
         // Registro implementado por Desarrollador 2
         Console.WriteLine("Funcionalidad de registro");
 
+        // Pull request
+        Console.WriteLine("Nueva funcionalidad");
+
     }
 }
