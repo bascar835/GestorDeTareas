@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GestorTareasWinForms
 {
@@ -30,6 +31,8 @@ namespace GestorTareasWinForms
         public string Categoria { get; set; }
 
         public bool PrioridadAlta { get; set; }
+
+        public List<string> Etiquetas { get; set; } = new List<string>(); // Nueva propiedad
 
         /// <summary>
         /// Devuelve una representación de la tarea para mostrar en la lista.
